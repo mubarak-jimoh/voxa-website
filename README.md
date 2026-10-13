@@ -1,53 +1,30 @@
 # Voxa Website
 
-Official landing page for Voxa.
+Landing page and early-access waitlist for [Voxa](https://github.com/mubarak-jimoh/Voxa), my AI companion app for iOS and Android.
 
-## About Voxa
+**Live site:** https://getvoxa.netlify.app
 
-Voxa is an upcoming AI companion designed to help people stay motivated, accountable, and connected to their goals.
+## What it does
 
-The vision behind Voxa is simple:
+- Explains what Voxa is: an AI companion with long-term memory, goals, journaling and daily check-ins
+- Shows the main features and the mission behind the app
+- Collects early-access sign-ups through an embedded Tally form
+- Works on phones as well as desktop
 
-An AI companion that remembers you, grows with you, and helps you become the person you want to be.
+## Tech
 
-## Purpose of This Website
+- HTML and CSS, with no framework or build step
+- Tally Forms for the waitlist, so there is no backend to run
+- Hosted on Netlify
 
-This website serves as the public landing page for Voxa and allows visitors to:
+## Run it
 
-* Learn about the Voxa vision
-* Explore planned features
-* Join the early access waitlist
-* Follow the project's development
+Clone the repo and open `index.html` in a browser:
 
-## Live Website
+```bash
+git clone https://github.com/mubarak-jimoh/voxa-website.git
+```
 
-https://getvoxa.netlify.app
+## Related
 
-## Features
-
-* Modern responsive design
-* Mobile-friendly layout
-* Voxa feature showcase
-* Mission and vision sections
-* Early access waitlist integration
-
-## Tech Stack
-
-* HTML5
-* CSS3
-* Netlify
-* Tally Forms
-
-## Status
-
-Pre-Launch
-
-The Voxa web application is currently in development.
-
-## Contact
-
-For updates and announcements, join the waitlist through the website.
-
----
-
-Voxa — The AI companion that remembers you.
+The app itself is in the [Voxa repository](https://github.com/mubarak-jimoh/Voxa): React Native, Expo, TypeScript and Supabase.
